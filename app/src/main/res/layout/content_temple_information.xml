@@ -1,0 +1,159 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.guswn_000.san.MainActivity"
+    tools:showIn="@layout/app_bar_temple_information">
+
+    <RelativeLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <!-- TextView03 ~ TextView05는 생략 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true">
+
+            <TextView
+                android:id="@+id/introducetv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="temple stay"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout1"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentStart="true">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/baba2">
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="145dp"
+            android:orientation="vertical"
+            android:id="@+id/relativeLayout"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="21dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="템플스테이 찾는 홈페이지 주소"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:id="@+id/textView3"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:id="@+id/tvLinkify"
+                android:layout_width="356dp"
+                android:layout_height="20dp"
+                android:text="https://www.templestay.com/reserv_search.aspx"
+                android:autoLink="all"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="【홈페이지 이용 방법】 "
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text=" 방법 1 : 사찰이름을 알면 바로 검색!!!"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text=" 방법 2 : 원하는 지역과 유형 방식을 선택후" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="            화면을 내리면서 마음에 드는 사찰 선택후 예약!!!" />               />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout2"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_alignParentStart="true">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/baba2">
+
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/sangil"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="21dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:text="※ 사찰 이름 위에 마커가 안떠 있어도 맞는 위치입니다. "/>
+
+                <ImageView
+                    android:id="@+id/map_go"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/map_go"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

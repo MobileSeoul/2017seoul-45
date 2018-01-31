@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.guswn_000.san.temple_manners">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/lay"
+                android:background="@drawable/tem_1"
+                android:layout_height="450dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="17dp"
+                    android:text="※ 사 찰 예 절"
+                    android:textColor="#000000"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_alignStart="@+id/textView13"
+                    android:layout_below="@+id/textView13"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="14dp"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:text="1. 법당 안에 들어갔을 때"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_alignEnd="@+id/textView14"
+                    android:layout_below="@+id/textView14"
+                    android:layout_marginTop="12dp"
+                    android:text="▶ 가운데 문으로 출입하지 않고 옆문으로 출입한다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_alignStart="@+id/textView15"
+                    android:layout_below="@+id/textView15"
+                    android:text="▶ 법당에 들어서면 반배한 후에 합장한 채 부처님이 \n    계신 곳으로 조용히 걸어간다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="▶ 촛대에 불을 켜고 성냥개비를 지정된 곳에 놓는다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_alignStart="@+id/textView5"
+                    android:layout_below="@+id/textView5"
+                    android:text="▶ 향을 한 개 집어 촛불로 불을 붙인다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_alignStart="@+id/textView6"
+                    android:layout_below="@+id/textView6"
+                    android:text="▶ 향을 두 손으로 받들고 이마 위로 약간 올렸다가 \n    가슴 앞에 내린 뒤 두 손으로 공손히 향로에 꽂는다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_alignStart="@+id/textView8"
+                    android:layout_below="@+id/textView8"
+                    android:text="▶ 합장한 채 뒷걸음으로 한 걸음 뒤로 물러서 반배한다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_alignStart="@+id/textView10"
+                    android:layout_below="@+id/textView10"
+                    android:text="▶ 합장한 채 뒷걸음으로 불전에서 3~5걸음 \n     뒤로 물러난다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_alignStart="@+id/textView11"
+                    android:layout_below="@+id/textView11"
+                    android:text="▶ 삼배한 뒤 일어서서 다시 반배를 올린다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_alignStart="@+id/textView12"
+                    android:layout_below="@+id/textView12"
+                    android:text="▶ 법당을 나올 때에는 촛불을 끄고 나온다"
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_alignStart="@+id/textView16"
+                    android:layout_below="@+id/textView16"
+                    android:text="▶ 입구에서 반배를 올린 뒤 법당을 나온다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/tem_2"
+                android:layout_height="300dp">
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_alignStart="@+id/textView6"
+                    android:layout_below="@+id/textView6"
+                    android:text="▶ 향과 초 등을 준비해서 부처님께 공양한다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="31dp"
+                    android:layout_marginTop="14dp"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:text="2. 절에 왔을 때 지킬 예절"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_alignEnd="@+id/textView14"
+                    android:layout_below="@+id/textView14"
+                    android:layout_marginTop="12dp"
+                    android:text="▶ 잡담을 삼가한다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_alignStart="@+id/textView15"
+                    android:layout_below="@+id/textView15"
+                    android:text="▶ 몸과 마음을 단정히 하고 경내에 들어선다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_below="@+id/textView3"
+                    android:text="▶ 일주문에 서서 소지품을 내려 놓고 법당을 향해 합장 반배한다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_alignStart="@+id/textView5"
+                    android:layout_below="@+id/textView5"
+                    android:text="▶ 스님이나 불자를 만나면 '성불하세요' 하고 반배한다."
+                    android:textColor="#000000"
+                    android:textSize="14dp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:text="▶ 먼저 큰법당에 참배 후에 다른 일을 본다."
+                    android:textColor="#000000"
+                    android:textSize="14dp"
+                    android:layout_below="@+id/textView18"
+                    android:layout_alignStart="@+id/textView18" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

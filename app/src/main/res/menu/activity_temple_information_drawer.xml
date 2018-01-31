@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_launcher4"
+            android:title="메인으로" />
+        <item
+            android:id="@+id/nav_sansearch"
+            android:icon="@drawable/ic_si"
+            android:title="산 정보" />
+        <item
+            android:id="@+id/nav_santip"
+            android:icon="@drawable/ic_s"
+            android:title="등산 수칙" />
+        <item
+            android:id="@+id/nav_templemanners"
+            android:icon="@drawable/ic_t"
+            android:title="사찰 예절" />
+
+    </group>
+
+</menu>

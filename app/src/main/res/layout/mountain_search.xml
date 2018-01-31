@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="wrap_content"
+    tools:context="com.example.guswn_000.san.mountain_search">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_acha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/acha01" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_acha"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_acha"
+                        android:layout_alignEnd="@+id/iv_acha"
+                        android:layout_alignStart="@+id/iv_acha"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="아차산\n서울특별시 광진구 광장동"
+                        android:textColor="#ffffff" />
+                    //정렬을 상하좌우 이미지뷰에 맞춘다.
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_goanac"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/goanac01" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_goanac"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_goanac"
+                        android:layout_alignEnd="@+id/iv_goanac"
+                        android:layout_alignStart="@+id/iv_goanac"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="관악산\n서울특별시 관악구 대학동"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        ///
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_surac"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/surac01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_surac"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_surac"
+                        android:layout_alignEnd="@+id/iv_surac"
+                        android:layout_alignStart="@+id/iv_surac"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="수락산\n서울특별시 노원구 상계동"
+                        android:textColor="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_dobong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/dobong01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_dobong"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_dobong"
+                        android:layout_alignEnd="@+id/iv_dobong"
+                        android:layout_alignStart="@+id/iv_dobong"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="도봉산\n서울특별시 도봉구 도봉동"
+                        android:textColor="#ffffff"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        ///
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_bulam"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/bulam01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+                    <TextView
+                        android:id="@+id/tv_bulam"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_bulam"
+                        android:layout_alignEnd="@+id/iv_bulam"
+                        android:layout_alignStart="@+id/iv_bulam"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="불암산\n서울특별시 노원구 상계동"
+                        android:textColor="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_inking"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/inking01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_inking"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_inking"
+                        android:layout_alignEnd="@+id/iv_inking"
+                        android:layout_alignStart="@+id/iv_inking"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="인왕산\n서울특별시 종로구 무악동"
+                        android:textColor="#ffffff"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        ///
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_bucac"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/bucac01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_bucac"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_bucac"
+                        android:layout_alignEnd="@+id/iv_bucac"
+                        android:layout_alignStart="@+id/iv_bucac"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="북악산\n서울특별시 종로구 부암동"
+                        android:textColor="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_woomyun"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/woomyun01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_woomyun"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_woomyun"
+                        android:layout_alignEnd="@+id/iv_woomyun"
+                        android:layout_alignStart="@+id/iv_woomyun"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="우면산\n서울특별시 서초구 서초동"
+                        android:textColor="#ffffff"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_dragon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/dragon01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_dragon"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_dragon"
+                        android:layout_alignEnd="@+id/iv_dragon"
+                        android:layout_alignStart="@+id/iv_dragon"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="용마산\n서울특별시 중랑구 면목동"
+                        android:textColor="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_gehwasan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/gehwasan01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_gehawsan"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_gehwasan"
+                        android:layout_alignEnd="@+id/iv_gehwasan"
+                        android:layout_alignStart="@+id/iv_gehwasan"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="개화산\n서울특별시 강서구 개화동"
+                        android:textColor="#ffffff"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_youngwang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/youngwangsan01" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_youngwang"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_youngwang"
+                        android:layout_alignEnd="@+id/iv_youngwang"
+                        android:layout_alignStart="@+id/iv_youngwang"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="용왕산\n서울특별시 양천구 목동"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_namsan"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/namsan01" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_namsan"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_namsan"
+                        android:layout_alignEnd="@+id/iv_namsan"
+                        android:layout_alignStart="@+id/iv_namsan"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="남산\n서울특별시 중구 회현동1가"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        ///
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_demo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/demosan01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_demo"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_demo"
+                        android:layout_alignEnd="@+id/iv_demo"
+                        android:layout_alignStart="@+id/iv_demo"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="대모산\n서울특별시 강남구 개포동"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_woojang"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/woojangsan01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_woojang"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_woojang"
+                        android:layout_alignEnd="@+id/iv_woojang"
+                        android:layout_alignStart="@+id/iv_woojang"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="우장산\n서울특별시 강서구 화곡동"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        ///
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_youngbong"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/youngbongsan01" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_youngbong"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_youngbong"
+                        android:layout_alignEnd="@+id/iv_youngbong"
+                        android:layout_alignStart="@+id/iv_youngbong"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="응봉산\n서울특별시 성동구 응봉동"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_ilja"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/iljasan01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+                    <TextView
+                        android:id="@+id/tv_ilja"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_ilja"
+                        android:layout_alignEnd="@+id/iv_ilja"
+                        android:layout_alignStart="@+id/iv_ilja"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="일자산\n서울특별시 강동구 길동"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        ///
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_ansan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ansan01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_ansan"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_ansan"
+                        android:layout_alignEnd="@+id/iv_ansan"
+                        android:layout_alignStart="@+id/iv_ansan"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="서대문 안산\n서울특별시 서대문구 봉원동"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_gooroung"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/gooroungsan01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_gooroung"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_gooroung"
+                        android:layout_alignEnd="@+id/iv_gooroung"
+                        android:layout_alignStart="@+id/iv_gooroung"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="구룡산\n서울특별시 서초구 염곡동"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

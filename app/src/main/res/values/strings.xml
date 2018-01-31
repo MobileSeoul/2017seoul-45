@@ -1,0 +1,39 @@
+<resources>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_name">덜오름</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_srttings">Settings</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_acha_activity">아차산</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_temple__information">temple_Information</string>
+    <string name="title_activity_mountain_tip">mountain_tip</string>
+    <string name="title_activity_ready_tip">ready_tip</string>
+    <string name="title_activity_temple_manners">temple_manners</string>
+    <string name="about">도움말</string>
+    <string name="exit">나가기</string>
+    <string name="app_about_message">덜오름이란?\n산의 제주도의 방언인 오름이라는 단어와 절의 평안도의 방언인
+덜이라는 단어를 합쳐 산과 절을 소개한다는 의미입니다.\n\n
+        산정보\n
+서울에 있는 18개 대표적인 산들의 정보를 볼 수 있는 곳입니다.\n\n
+
+등산수칙\n
+등산을 하기 전 알아두면 유용한 팁들과 등산을 하면서 필요한 정보,
+계절별 등산복등을 확인 할 수 있습니다.\n\n
+
+사찰예절\n
+사찰예절에는 법당 안에 들어갔을 때 지켜야 할 예절과 절에 왔을 때
+지킬 예절들을 확인 할 수 있습니다.\n\n
+
+사찰정보\n
+서울에 있는 산 속에 있는 12개의 사찰들에 대한 정보와 위치를 확인
+할 수 있는 곳입니다.</string>
+    <string name="str_ok">OK</string>
+    <string name="app_exit_message">나가기</string>
+    <string name="str_no">NO</string>
+</resources>

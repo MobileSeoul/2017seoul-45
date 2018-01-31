@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="wrap_content"
+    tools:context="com.example.guswn_000.san.temple_search">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_myogagsa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/myogagsa01" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_myogagsa"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_myogagsa"
+                        android:layout_alignEnd="@+id/iv_myogagsa"
+                        android:layout_alignStart="@+id/iv_myogagsa"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="묘각사(종파 : 관음종)\n서울시 종로구 종로63가길31"
+                        android:textColor="#ffffff" />
+                    //정렬을 상하좌우 이미지뷰에 맞춘다.
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_bomunsa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/bomunsa01" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_bomunsa"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_bomunsa"
+                        android:layout_alignEnd="@+id/iv_bomunsa"
+                        android:layout_alignStart="@+id/iv_bomunsa"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="보문사(종파 : 보문종)\n서울시 성북구 보문사길 20"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        ///
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_jeongbeobsa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/jeongbeobsa01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_jeongbeobsa"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_jeongbeobsa"
+                        android:layout_alignEnd="@+id/iv_jeongbeobsa"
+                        android:layout_alignStart="@+id/iv_jeongbeobsa"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="정법사(종파 : 선학원)\n서울시 성북구 대사관로13길 44"
+                        android:textSize="13.8dp"
+                        android:textColor="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_deasungsa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/deasungsa01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_deasungsa"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="대성사(종파 : 대각회)\n서울시 서초구 서초3동 산140-1"
+                        android:textSize="13.8dp"
+                        android:textColor="#ffffff"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentEnd="true" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        ///
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_inwangsa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/inwangsa01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+                    <TextView
+                        android:id="@+id/tv_inwangsa"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_inwangsa"
+                        android:layout_alignEnd="@+id/iv_inwangsa"
+                        android:layout_alignStart="@+id/iv_inwangsa"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="인왕사(종파 : 본원종)\n서울시 종로구 통일로18가길 34"
+                        android:textSize="13.8dp"
+                        android:textColor="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_hwagyesa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/hwagyesa01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_beobansa"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_hwagyesa"
+                        android:layout_alignEnd="@+id/iv_hwagyesa"
+                        android:layout_alignStart="@+id/iv_hwagyesa"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="화계사(종파 : 조계사)\n서울시 강북구 수유1동 487"
+                        android:textColor="#ffffff"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        ///
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_hogugjijangsa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/hogugjijangsa01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_hogugjijangsa"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_hogugjijangsa"
+                        android:layout_alignEnd="@+id/iv_hogugjijangsa"
+                        android:layout_alignStart="@+id/iv_hogugjijangsa"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="호국지장사(종파 : 조계종)\n서울시 동작구 동작동 305"
+                        android:textColor="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_gilsangsa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/gilsangsa01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_gilsangsa"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_gilsangsa"
+                        android:layout_alignEnd="@+id/iv_gilsangsa"
+                        android:layout_alignStart="@+id/iv_gilsangsa"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="길상사(종파 : 조계종)\n서울시 성북구 선잠로5길 68"
+                        android:textColor="#ffffff"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_bongeunsa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/bongeunsa01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_bongeunsa"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_bongeunsa"
+                        android:layout_alignEnd="@+id/iv_bongeunsa"
+                        android:layout_alignStart="@+id/iv_bongeunsa"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="봉은사(종파 : 조계종)\n서울시 강남구 봉은사로 531"
+                        android:textColor="#ffffff"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_jogyesa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:src="@drawable/jogyesa01"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_jogyesa"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_jogyesa"
+                        android:layout_alignEnd="@+id/iv_jogyesa"
+                        android:layout_alignStart="@+id/iv_jogyesa"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="조계사(종파 : 조계종)\n서울시 종로구 우정국로 55"
+                        android:textColor="#ffffff"/>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_bongwonsa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/bongwonsa01" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_bongwonsa"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_bongwonsa"
+                        android:layout_alignEnd="@+id/iv_bongwonsa"
+                        android:layout_alignStart="@+id/iv_bongwonsa"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="봉원사(종파 : 태고종)\n서울시 서대문구 봉원사길 120"
+                        android:textColor="#ffffff" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativelayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">//랠러티브 레이아웃 생성
+
+                    <ImageView
+                        android:id="@+id/iv_baeglyeonsa"
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/baeglyeonsa01" />
+                    //이미지뷰 생성
+
+                    <TextView
+                        android:id="@+id/tv_baeglyeonsa"
+                        android:layout_width="60dp"
+                        android:layout_height="45dp"
+                        android:layout_alignBottom="@+id/iv_baeglyeonsa"
+                        android:layout_alignEnd="@+id/iv_baeglyeonsa"
+                        android:layout_alignStart="@+id/iv_baeglyeonsa"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginBottom="1dp"
+                        android:background="#af000000"
+                        android:gravity="center"
+                        android:text="백련사(종파 : 태고종)\n서울시 강북구 4.19로20길 142"
+                        android:textColor="#ffffff" />ㄴ
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

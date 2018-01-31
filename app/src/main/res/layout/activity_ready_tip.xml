@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.guswn_000.san.ready_tip">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="17dp"
+                    android:text="※ 등 산 수 칙"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:background="@drawable/baba"
+                    android:layout_width="300dp"
+                    android:layout_height="30dp"
+                    android:layout_alignStart="@+id/textView13"
+                    android:layout_below="@+id/textView13"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="14dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="1. 배낭의 무게는 자기 몸무게의 10% 이하로"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_alignEnd="@+id/textView14"
+                    android:layout_below="@+id/textView14"
+                    android:layout_marginTop="12dp"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:text="배낭 무게는 자기 몸무게의 10%가 넘지 않도록 하는 게 원칙입니다.\n\n본격적인 등산이 시작된 후에는 가방이 완전히 등에 밀착될 수 있도록 가슴벨트와 허리벨트를 사용하는 것이 좋습니다."/>
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/azxsdc"
+                    android:layout_alignTop="@+id/textView15"
+                    android:layout_alignStart="@+id/textView14" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/ds"
+                    android:layout_alignTop="@+id/textView15"
+                    android:layout_alignEnd="@+id/textView14" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="300dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/baba"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="29dp"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="2. 본격적인 산행이라면,\n반드시 발목까지 오는 등산화를 신어라"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_alignStart="@+id/textView14"
+                    android:layout_below="@+id/textView14"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:text="등산시 되도록 발목까지 오는 등산화를 신는 게 발목이나 아킬레스건의 부상을 예방할 수 있는 최선책입니다.\n\n등산화를 신을 때 끈을 맨 위까지 묶고 발목을 잘 고정시켜야 합니다." />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="90dp"
+                    android:layout_height="112dp"
+                    android:layout_alignStart="@+id/textView14"
+                    android:layout_alignTop="@+id/textView15"
+                    app:srcCompat="@drawable/ds_2" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:background="@drawable/baba"
+                    android:layout_width="300dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center"
+                    android:text="3. 내려갈 때는 무릎을 약간 굽히고\n좁은 보폭으로 걸어라"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="200dp"
+                    android:layout_height="112dp"
+                    android:layout_alignEnd="@+id/textView14"
+                    android:layout_below="@+id/textView14"
+                    android:layout_marginTop="17dp"
+                    android:text="내리막길에서는 몸무게의 3~5배가 앞쪽에 쏠리기 때문에 무릎 연골 파열 등을 방지하려면\n\n무릎을 약간 굽히고 좁은 보폭을 유지하며 발바닥 전체로 땅을 디디고 내려가는 산행이 필수입니다."
+                    android:textColor="#000000"
+                    android:textSize="13dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="90dp"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/ds_3"
+                    android:layout_alignTop="@+id/textView15"
+                    android:layout_alignEnd="@+id/textView14" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="300dp"
+                    android:background="@drawable/baba"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center"
+                    android:text="4. 다리가 삐었을 때는 얼음팩으로 냉찜질\n관절엔 온찜질"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="200dp"
+                    android:layout_height="100dp"
+                    android:layout_alignStart="@+id/textView14"
+                    android:layout_below="@+id/textView14"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:text="발목을 삐었을 때 냉찜질로 부기를 가라앉히고 통증을 줄일 수 있습니다.\n\n등산 후 24시간이 지났는데도 관절이 뻑뻑하거나 아프다면 그때는 온찜질로 근육의 긴장을 풀어줍니다 " />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="200dp"
+                    android:background="@drawable/baba"
+                    android:layout_height="30dp"
+                    android:layout_alignStart="@+id/textView2"
+                    android:layout_alignTop="@+id/imageButton4"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:gravity="center"
+                    android:text="봄 가을철" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:text="땀 배출력이 뛰어난 쿨맥스소재의 스판 기능성 티셔츠나 활동적인 기소매 셔츠\n\n꽃샘 추위나 바람을 막아 줄 윈드재킷\n\n스판 기능이 있는 스트레치 소재의 긴 바지"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:layout_alignBottom="@+id/imageButton4"
+                    android:layout_alignEnd="@+id/textView14" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="90dp"
+                    android:layout_height="180dp"
+                    android:layout_alignStart="@+id/textView14"
+                    android:layout_below="@+id/textView14"
+                    android:layout_marginTop="21dp"
+                    app:srcCompat="@drawable/mc1_1" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="300dp"
+                    android:background="@drawable/baba"
+                    android:layout_height="30dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="30dp"
+                    android:gravity="center"
+                    android:text="5. 계절별 등산복 입는 방법"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="200dp"
+                    android:background="@drawable/baba"
+                    android:layout_height="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/textView2"
+                    android:gravity="center"
+                    android:text="여름철"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="11dp"
+                    android:text="여름 산행시 모자는 필수. 방수 및 통풍이 되는 고어택스 소재의 여름 모자\n\n땀 배출이 뛰어난 쿨맥스 소재의 반팔 티셔츠\n\n땀 배출이 뛰어난 필드센서 소재에 스판 기능이 첨가된 바지"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:layout_below="@+id/textView4"
+                    android:layout_toEndOf="@+id/imageButton4" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="90dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="31dp"
+                    app:srcCompat="@drawable/mc1_2"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/baba"
+                    android:gravity="center"
+                    android:text="겨울철"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_alignTop="@+id/imageButton4"
+                    android:layout_alignStart="@+id/textView2" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="11dp"
+                    android:text="바람을 막아주고 눈에 젖지 않는 고어텍스, 심파텍스,엔트란트 등 방수, 투습 기능의 제품\n\n체온이 빠져나가는 것을 막아주는 윈드블럭 소재의 긴바지"
+                    android:textColor="#000000"
+                    android:textSize="13dp"
+                    android:layout_below="@+id/textView4"
+                    android:layout_toEndOf="@+id/imageButton4" />
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="90dp"
+                    android:layout_height="180dp"
+                    android:layout_marginStart="33dp"
+                    app:srcCompat="@drawable/mc1_3"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
